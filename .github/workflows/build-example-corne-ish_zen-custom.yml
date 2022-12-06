@@ -8,7 +8,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["corne-ish_zen_left","corne-ish_zen_right"]'
+      board: '["corne-ish_zen_left","corne-ish_zen_right", "settings_reset"]'
       custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       alphas: '["qwerty"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y\nCONFIG_ZMK_DISPLAY_HIDE_MOMENTARY_LAYERS=y\nCONFIG_CUSTOM_WIDGET_LOGO_IMAGE_MIRYOKU=y\nCONFIG_IL0323_INVERT=y"]'
